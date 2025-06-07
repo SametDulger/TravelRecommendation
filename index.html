@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Travel Recommendations</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+  </nav>
+
+  <header class="header">
+    <h1>Welcome to Travel Recommendations</h1>
+    <p>Discover beaches, temples and cities worldwide</p>
+  </header>
+
+  <section class="search-section">
+    <input type="text" id="searchInput" placeholder="Search recommendations..." />
+    <button id="clearBtn">Clear</button>
+  </section>
+
+  <section id="resultsSection" class="results-section hidden">
+    <h2>Search Results</h2>
+    <div id="resultsContainer" class="cards"></div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
